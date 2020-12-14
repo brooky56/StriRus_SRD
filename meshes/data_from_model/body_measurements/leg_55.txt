@@ -1,0 +1,72 @@
+﻿Information listing created by	Lupasic
+Date	05-Jan-2019 00:48:24
+Current work part	D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\leg\leg.prt
+Node name	desktop-t1hob2d
+
+Measurement Mass Properties
+
+Displayed Mass Property Values
+Volume                          =    0.000009724 m³
+Area                            =    0.004125900 m²
+Mass                            =    0.010307884 kg
+Weight                          =    0.101085812 N
+Radius of Gyration              =    0.022129189 m
+Center of Mass                  =   -0.008963344,   -0.000000000,   -0.020168668 m
+
+============================================================
+Detailed Mass Properties
+Analysis calculated using accuracy of    0.990000000
+
+Density               = 1060.000000000 kg/m³
+Volume                =    0.000009724 m³
+Area                  =    0.004125900 m²
+Mass                  =    0.010307884 kg
+
+First Moments
+Mx, My, Mz            =   -0.000092393 kg⋅m,   -0.000000000 kg⋅m,   -0.000207896 kg⋅m
+
+Center of Mass
+Xcbar, Ycbar, Zcbar   =   -0.008963344 m,   -0.000000000 m,   -0.020168668 m
+
+Moments of Inertia (WCS)
+Ix, Iy, Iz            =    0.000008225 kg⋅m²,    0.000010014 kg⋅m²,    0.000001899 kg⋅m²
+
+Moments of Inertia (Centroidal)
+Ixc, Iyc, Izc         =    0.000004032 kg⋅m²,    0.000004993 kg⋅m²,    0.000001071 kg⋅m²
+
+Moments of Inertia (Spherical)
+I                     =    0.000005048 kg⋅m²
+
+Products of Inertia (WCS)
+Iyz, Ixz, Ixy         =    0.000000000 kg⋅m²,    0.000002576 kg⋅m²,   -0.000000000 kg⋅m²
+
+Products of Inertia (Centroidal)
+Iyzc, Ixzc, Ixyc      =    0.000000000 kg⋅m²,    0.000000712 kg⋅m²,   -0.000000000 kg⋅m²
+
+Radii of Gyration (WCS)
+Rx, Ry, Rz            =    0.028247935 m,    0.031168644 m,    0.013572221 m
+
+Radii of Gyration (Centroidal)
+Rxc, Ryc, Rzc         =    0.019778035 m,    0.022008355 m,    0.010191352 m
+
+Radii of Gyration (Spherical)
+R                     =    0.022129189 m
+
+Principal Axes (Direction vectors relative to the WCS)
+Xp(X), Xp(Y), Xp(Z)   =    0.000000000 ,    1.000000000 ,    0.000000000 
+Yp(X), Yp(Y), Yp(Z)   =    0.974972567 ,    0.000000000 ,   -0.222325199 
+Zp(X), Zp(Y), Zp(Z)   =    0.222325199 ,    0.000000000 ,    0.974972567 
+
+Principal Moments
+I1, I2, I3            =    0.000004993 kg⋅m²,    0.000004195 kg⋅m²,    0.000000908 kg⋅m²
+
+============================================================
+Error Estimates
+
+Volume                          =    0.000000000 m³
+Area                            =    0.000000000 m²
+Mass                            =    0.000000000 kg
+Radius for Center of Mass       =    0.000000000 m
+Center of Mass                  =    0.000000000 m,    0.000000000 m,    0.000000000 m
+Moments of Inertia (WCS)        =    0.000000000 kg⋅m,    0.000000000 kg⋅m,    0.000000000 kg⋅m
+Principal Moments               =    0.000000000 kg⋅m²,    0.000000000 kg⋅m²,    0.000000000 kg⋅m²

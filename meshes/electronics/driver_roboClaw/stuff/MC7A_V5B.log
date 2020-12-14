@@ -1,0 +1,213 @@
+﻿IGES to UG
+! INFO-     NX V12.0 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 3-OCT-2018  1:15:30 PM
+! INFO-      
+! STATUS-   Converting Part: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\MC7A_V5B.IGS
+! INFO-     SolidWorks IGES file using analytic representation for surfaces         
+! SUMMARY-   
+! SUMMARY-  Summary of Supported IGES Entities in file
+! SUMMARY-   
+! SUMMARY-  Entity Type                    Count
+! SUMMARY-  -----------                    -----
+! SUMMARY-  Line (110/0).................: 12492
+! SUMMARY-  Circular Arc (100/0).........:  3180
+! SUMMARY-  B-Spline Curve (126/0-4).....: 17189
+! SUMMARY-  Composite Curve (102/0)......:  6114
+! SUMMARY-  Surface of Rev (120/0).......:   910
+! SUMMARY-  B-Spline Surface (128/0-9)...:  2000
+! SUMMARY-  Curve of Surface (142/0).....:  3057
+! SUMMARY-  Trimmed Surface (144/0)......:  2910
+! SUMMARY-  Trans Matrix (124/0,1,10,12).:  2905
+! SUMMARY-  Subfigure Definition (308/0).:    17
+! SUMMARY-  Subfigure Instance (408/0)...:    62
+! SUMMARY-  Color Definition (314/0,1)...:    96
+! SUMMARY-                                 -----
+! SUMMARY-  Total                          50932
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 3-OCT-2018 1:15:31 PM
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:32 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\MC5A-PCB
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    14
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             14
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:35 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\ED2636-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   124
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            124
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:37 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\P15369TB-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    20
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             20
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:37 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\SW1020CT-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    17
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             17
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:38 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\PBC10DAAN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   264
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            264
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:39 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\PBC05SAAN
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    84
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             84
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:40 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\ATXMEGA32A4U-AU-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   582
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            582
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:45 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\620-1319-1-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   350
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            350
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:48 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\IRF7351TRPBFCT-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   118
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            118
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:49 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\609-4618-1-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   112
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            112
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:51 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\top cover
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   611
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            611
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:15:57 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\bottom cover
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   386
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            386
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:01 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\SRN5040-220MCT-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    94
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             94
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:02 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\587-3248-1-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    16
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             16
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:02 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\99461A715
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    88
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             88
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:04 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\DB2W40200LCT-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    20
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             20
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:04 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\404-1004-1-ND
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    10
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             10
+! STATUS-   Creating the UG part (Phase 3 of 3): 3-OCT-2018  1:16:04 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_beta_prototype\roboClaw\MC7A_V5B.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Part Attribute ..............:     8
+! SUMMARY-  Component ...................:    62
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             70
+! INFO-      
+! INFO-     End of Translation: 3-OCT-2018  1:16:06 PM
+! INFO-      

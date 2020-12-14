@@ -1,0 +1,789 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 29-OCT-2018  1:26:21 PM
+! INFO-      
+! STATUS-   Converting Part: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\pmd_vision_CamBoard_pico_flexx.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        Pico_Flexx_Plastic.STEP
+! SUMMARY-  Date             2018-02-22T09:00:13
+! SUMMARY-  Author           Jeder
+! SUMMARY-  Organization     ifm electronic gmbh
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2016
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   1534
+! SUMMARY-  application_context ........................................:     52
+! SUMMARY-  axis2_placement_3d .........................................:   2432
+! SUMMARY-  b_spline_curve_with_knots ..................................:    241
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    225
+! SUMMARY-  b_spline_surface_with_knots ................................:      6
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     78
+! SUMMARY-  cartesian_point ............................................:  14744
+! SUMMARY-  circle .....................................................:    948
+! SUMMARY-  conical_surface ............................................:     87
+! SUMMARY-  context_dependent_shape_representation .....................:     28
+! SUMMARY-  cylindrical_surface ........................................:    499
+! SUMMARY-  direction ..................................................:   7819
+! SUMMARY-  edge_curve .................................................:   4369
+! SUMMARY-  edge_loop ..................................................:   1620
+! SUMMARY-  face_bound .................................................:     86
+! SUMMARY-  face_outer_bound ...........................................:   1534
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:   1582
+! SUMMARY-  item_defined_transformation ................................:     28
+! SUMMARY-  length_unit_and_si_unit ....................................:   1582
+! SUMMARY-  line .......................................................:   2955
+! SUMMARY-  next_assembly_usage_occurrence .............................:     28
+! SUMMARY-  open_shell .................................................:     52
+! SUMMARY-  oriented_edge ..............................................:   8414
+! SUMMARY-  plane ......................................................:    860
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:   1582
+! SUMMARY-  product ....................................................:     26
+! SUMMARY-  product_context ............................................:     26
+! SUMMARY-  product_definition .........................................:     26
+! SUMMARY-  product_definition_context .................................:     26
+! SUMMARY-  product_definition_formation_with_specified_source .........:     26
+! SUMMARY-  product_definition_shape ...................................:     54
+! SUMMARY-  product_related_product_category ...........................:     26
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     28
+! SUMMARY-  shape_representation .......................................:     26
+! SUMMARY-  shell_based_surface_model ..................................:     22
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:   1582
+! SUMMARY-  spherical_surface ..........................................:      4
+! SUMMARY-  uncertainty_measure_with_unit ..............................:   1582
+! SUMMARY-  vector .....................................................:   2955
+! SUMMARY-  vertex_point ...............................................:   2891
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          62685
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 29-OCT-2018 1:26:22 PM
+! STATUS-    
+! WARNING-  Reference Set Name J38-GSB343K33HR_A is changed to: J38-GSB343K33HR_A-c01.
+! WARNING-  Reference Set Name PMD-4LENS1_FoV_OFF is changed to: PMD-4LENS1_FoV_OFF-c01.
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:23 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 23986
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 23986
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\F20-000503_SC5605
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:25 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 71609
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 71609
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4PBCV
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:25 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 45558
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 45558
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:25 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 29130
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 29130
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:26 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 10355
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 10355
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:27 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 53329
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 53329
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\GN8-4IRFL
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:28 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 58444
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 58444
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4PLHD
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:28 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 40015
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 40015
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:28 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 70917
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 70917
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_9
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:29 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 34277
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 34277
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\U15-IRS1145C_A
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:29 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 65833
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 65833
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A13525
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:30 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 61913
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 61913
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:30 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 54453
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 54453
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 22976
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 36519
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 210
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 2025
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 37820
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 38759
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 53650
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 22884
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 69523
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 55207
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 74663
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 5732
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 23716
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 34220
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 51900
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 27738
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 65413
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 64986
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 4822
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 38521
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 3232
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 36162
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 26706
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 35758
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 5213
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 25269
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 64294
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 47623
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 58121
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 40843
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-2PICO3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-  Solid .......................:    30
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             31
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:31 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 64311
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 64311
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4LENS1_FoV_OFF_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:32 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 18147
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 18147
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:32 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 71668
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 71668
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:32 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 22648
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 22648
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4PCAS
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:35 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 43244
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 43244
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4PIRW
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:35 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 6446
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 6446
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4LENS1_FoV_OFF
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:35 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 63445
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 63445
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:37 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 21706
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 21706
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_7
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:37 PM
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 33683
+! STATUS-    
+! ERROR-    CRTOBY Failure - Error code : 15115 - Disjoint Shell. : 33683
+! ERROR-     
+! INFO-     Could not create sheet body because of topology creation, geometry
+! INFO-     creation, or failure to attach geometry to topology.  Will attempt
+! INFO-     to convert as many sheet body faces to individual single-faced sheet
+! INFO-     bodies as possible.
+! INFO-      
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A_6
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Group .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:38 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-4LENS1_FoV_OFF40102
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:38 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\J38-GSB343K33HR_A
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    12
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             12
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:38 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\PMD-2PICO
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 29-OCT-2018  1:26:38 PM
+! INFO-     Filing Part ..: D:\Cad_blueprints\NX\StriRus new\StriRus_gamma_prototype\electronics\camera\pmd_vision_CamBoard_pico_flexx.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    11
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        22
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         0
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :        22
+! INFO-      
+! INFO-     End of Translation: 29-OCT-2018  1:26:39 PM
+! INFO-      
