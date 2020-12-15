@@ -1,8 +1,7 @@
-% constraints on 6(1_left); 9(1_right); 17(4_left); 20(4_right); on Z axis
-% pay attention on absolute follower
-% leg ups to Z coordinate
-constraint = [SymbolicEngine.LinkArray(6).AbsoluteFollower(3); SymbolicEngine.LinkArray(9).AbsoluteFollower(3); ... 
-    SymbolicEngine.LinkArray(17).AbsoluteFollower(3); SymbolicEngine.LinkArray(20).AbsoluteFollower(3);];
+% constraints second variant 
+constraint = ...
+[   SymbolicEngine.LinkArray(17).RelativeFollower(3); SymbolicEngine.LinkArray(19).RelativeFollower(3); SymbolicEngine.LinkArray(21).RelativeFollower(3); ...
+    SymbolicEngine.LinkArray(9).RelativeFollower(3); SymbolicEngine.LinkArray(7).RelativeFollower(3); SymbolicEngine.LinkArray(5).RelativeFollower(3);];
 
 description = SRD_generate_second_derivative_Jacobians('SymbolicEngine', SymbolicEngine, ...
     'Task',                                   constraint, ...
@@ -22,9 +21,9 @@ SRD_save(Handler_Constraints_Model, 'Handler_Constraints_Model');
 
 %%
 %Inverse Kinematics
-
-% Joints include all without jounts from constraint
-Task = [SymbolicEngine.q(1); SymbolicEngine.q(2); constraint]; 
+rC = SRD_get_CoM_ForLinkArray('SymbolicEngine', SymbolicEngine);
+% Joints include all without joints from constraint
+Task = [rC(1); constraint];  
 
 description = SRD_generate_second_derivative_Jacobians('SymbolicEngine', SymbolicEngine, ...
     'Task',                                      Task, ...
@@ -40,3 +39,33 @@ description = SRD_generate_second_derivative_Jacobians('SymbolicEngine', Symboli
 Handler_IK_Model = SRD_get_handler__IK_model('description', description, ...
     'dof_robot', SymbolicEngine.dof);
 SRD_save(Handler_IK_Model, 'Handler_IK_Model');
+
+%% IK Task for second version (replace in 4 step)
+ZeroOrderDerivativeNodes = {IC_Task(1), IC_Task(1) + 0.05;   % CoM chages
+                            
+                            IC_Task(2), IC_Task(2);          % Leg 3-L Z-axis
+                            IC_Task(3), IC_Task(3);          % Leg 4-R Z-axis
+                            IC_Task(4), IC_Task(4);          % Leg 5-L Z-axis
+                            
+                            IC_Task(5), IC_Task(5);          % Leg 2-R Z-axis
+                            IC_Task(6), IC_Task(6);          % Leg 1-L Z-axis
+                            IC_Task(7), IC_Task(7)};         % Leg 0-R Z-axis
+                            % constraints
+                     
+FirstOrderDerivativeNodes = {0, 0; % 0
+                             0, 0;
+                             0, 0;
+                             0, 0;
+                             
+                             0, 0;
+                             0, 0;
+                             0, 0};
+                         
+SecondOrderDerivativeNodes = {0, 0; % 0 
+                              0, 0;
+                              0, 0;
+                              0, 0;
+                              
+                              0, 0;
+                              0, 0;
+                              0, 0};

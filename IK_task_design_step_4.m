@@ -12,7 +12,7 @@ ZeroOrderDerivativeNodes = {IC_Task(1), IC_Task(1) + 0.05;   % CoM chages
                             IC_Task(6), IC_Task(6);          % Leg 3-L Y-axis
                             IC_Task(7), IC_Task(7);          % Leg 3-R Y-axis
                             IC_Task(8), IC_Task(8);          % Leg 0-L Y-axis
-                            IC_Task(2), IC_Task(9)};        % Leg 0-R  Y-axis
+                            IC_Task(9), IC_Task(9)};         % Leg 0-R Y-axis
                             % constraints
                      
 FirstOrderDerivativeNodes = {0, '*'; % 0
